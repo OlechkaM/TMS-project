@@ -1,0 +1,39 @@
+.movieItem_item {
+    width: 220px;
+    height: 380px;
+    background-color: black;
+    margin: 0 40px 40px 0;
+}
+
+.movieItem_img {
+    max-width: 220px;
+    max-height: 340px;
+    margin-bottom: 24px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.movieItem_rate {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    background-color: #00A340;
+    color: white;
+    left: 20px;
+    top: 20px;
+    border-radius: 6px;
+}
+
+.movie_title {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 4px;
+}
+
+.movie_genre {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}

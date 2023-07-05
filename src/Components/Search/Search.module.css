@@ -1,0 +1,31 @@
+.search_container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_input {
+    width: 100%;
+    height: 56px;
+    background-color: dimgray;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+    margin: 37px 20px 0 0;
+}
+
+.search_input::placeholder {
+    color: white;
+}
+
+.search_btn {
+    height: 59px;
+    background-color: blueviolet;
+    color: white;
+    margin: 37px 0 0 0;
+    border-radius: 12px;
+
+
+}

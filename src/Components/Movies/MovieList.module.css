@@ -1,0 +1,19 @@
+.movies_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    width: 160px;
+    height: 50px;
+    border-radius: 15px;
+    bottom: 5px;
+    margin: 0 auto;
+}
+.button_none {
+    display: none;
+}

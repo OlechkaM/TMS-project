@@ -1,0 +1,26 @@
+.sidebar_container {
+    grid-area: sidebar;
+    background-color: black;
+}
+
+.sidebar_wrapper {
+    width: 140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu_item {
+    margin-bottom: 40px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menu_item_text {
+    color: white;
+}
+
+.menu_item_text:hover {
+    color: blueviolet;
+}

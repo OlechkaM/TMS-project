@@ -1,0 +1,58 @@
+.filter_container {
+    background-color: #323537;
+    padding: 25px;
+}
+
+.filter_year {
+    width: 90%;
+    height: 110px;
+}
+
+.year_input {
+    background-color: dimgray;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.year_input::placeholder {
+    color: white;
+}
+
+.type_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.movie_type {
+    width: 70px;
+    height: 30px;
+    background-color: dimgray;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.movie_type_active {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.filter_text {
+    color: white;
+}
+
+.btn {
+    width: 160px;
+    height: 50px;
+    background-color: #323537;
+    color: white;
+}

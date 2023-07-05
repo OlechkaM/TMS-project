@@ -1,0 +1,15 @@
+.mainPage_container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:
+        'head head'
+        'sidebar cont';
+    grid-template-rows: 134px 1fr;
+    grid-template-columns: 368px 1fr;
+}

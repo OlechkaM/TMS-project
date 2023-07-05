@@ -1,0 +1,12 @@
+.title {
+    color: white;
+    width: 368px;
+    font-size: 48px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pix {
+    color: blueviolet;
+}

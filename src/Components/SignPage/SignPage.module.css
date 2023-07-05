@@ -1,0 +1,6 @@
+.sign_page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../Image/auth-background.png);
+    background-size: cover;
+}

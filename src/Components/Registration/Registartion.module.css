@@ -1,0 +1,63 @@
+.reg_wrapper {
+    width: 574px;
+    height: 732px;
+    background-color: #242426;
+    border-radius: 10px;
+    top: 270px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.reg_item {
+    width: 494px;
+    height: 652px;
+    top: 40px;
+}
+
+.reg_signUp {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.reg_text {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.reg_input {
+    background-color: #323537;
+    height: 56px;
+    width: 494px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.reg_input:last-child {
+    margin-bottom: 40px;
+}
+
+.auth_input::placeholder {
+    color: #80858B;
+}
+
+.reg_button {
+    width: 494px;
+    height: 56px;
+    background: #7B61FF;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.text {
+    font-size: 16px;
+    color: #80858B;
+    text-align: center;
+}
+
+.link_text {
+    color: #7B61FF;
+}
